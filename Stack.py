@@ -16,11 +16,4 @@ class Stack:
 
     def peek(self):
         return self.load[self.len-1]
-'''
-s = Stack()
-s.push(5)
-s.push("hello")
-print(s.peek())
-print(s.pop())
-print(s)
-'''
+
